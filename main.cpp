@@ -136,6 +136,6 @@ int main()
   refresh();
   usleep(1000000 * 5);
   endwin();
-  std::cout << "You lost!\nYour score was" << score << std::endl;
+  std::cout << "You lost!\nYour score was " << score << std::endl;
   return 0;
 }
